@@ -1,3 +1,1 @@
-some_var = input("What's a good thing?")
-print()
-print(f"We love {some_var} around here!")
+# day 1 https://adventofcode.com/2022/day/1
