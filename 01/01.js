@@ -55,4 +55,3 @@ for (const num of itemList) {
 }
 
 console.log(myElves);
-console.log("hi!");
