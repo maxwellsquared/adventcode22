@@ -40,9 +40,10 @@ def parse_string(input):
         to_return.append([line[0], line[2]])
     return to_return
 
-
+# turn a string into a list of pairs
 pairs = parse_string(data02.input_string)
 
-print(str(len(pairs)))
 print("adding...")
+
+# add up the scores from all the pairs
 print(add_list(resolve_list(pairs)))
