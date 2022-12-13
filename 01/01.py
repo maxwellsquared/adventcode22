@@ -2278,3 +2278,7 @@ for item in source_text:
 
 print(max(elves))
 
+elves.sort()
+num_elves = len(elves)
+print("The elf with the most calories has " + str(elves[num_elves - 1]) + " calories on them.")
+print(int(elves[num_elves - 1]) + int(elves[num_elves - 2]) + int(elves[num_elves - 3]))
